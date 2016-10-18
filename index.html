@@ -10,28 +10,40 @@
   </head>
   <body>
     <div class="container">
-      <h1>Cats Vs Dogs</h1>
-      <p>Click a button to make an animal speak. See if anyone replies!</p>
-
-      <button class="btn btn-primary" id="meow">Cat speaks</button>
-
-      <button class="btn btn-danger" id="woof">Dog speaks</button>
-
+      <div class="jumbotron">
+        <h1>Cats Vs Dogs</h1>
+        <p>Click a button to make an animal speak. See if anyone replies!</p>
+      </div>
       <div class="row">
-        <div class="col-md-6">
+
+        <div class="btn-group" role="group">
+          <button class="btn btn-primary" id="meow">Cat speaks</button>
+          <button class="btn btn-danger" id="woof">Dog speaks</button>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-3">
           <h2> </h2>
           <ul id="callout" class="unstyled">
 
           </ul>
         </div>
-
-        <div  class="col-md-6">
+        <div class="col-md-3">
+          <ul id="smallCats">
+          </ul>
+        </div>
+        <div  class="col-md-3">
           <h2> </h2>
           <ul id="reply" class="unstyled">
-
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul id="smallDogs">
           </ul>
         </div>
       </div>
-    </div>
+
+    </div><!--container-->
   </body>
 </html>

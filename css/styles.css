@@ -1,6 +1,11 @@
 img{
   height:200px;
+
 }
 .icon {
   height: 90px;
+}
+.btn-group{
+  display: block;
+  margin-left: 40%;
 }
